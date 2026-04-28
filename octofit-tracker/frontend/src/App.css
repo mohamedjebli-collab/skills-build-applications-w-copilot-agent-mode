@@ -1,0 +1,117 @@
+.app-shell {
+  background: radial-gradient(circle at 10% 0%, #e3f4ff 0%, #f7fbff 45%, #eef3f9 100%);
+  color: #1d3557;
+}
+
+.app-nav {
+  background: linear-gradient(90deg, #0b3954 0%, #087e8b 100%);
+}
+
+.app-intro-card {
+  background: linear-gradient(140deg, #ffffff 0%, #f8fcff 100%);
+  border-left: 6px solid #087e8b;
+}
+
+.card {
+  border-radius: 14px;
+}
+
+.app-logo {
+  width: 42px;
+  height: 42px;
+  border-radius: 10px;
+  object-fit: cover;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.25);
+}
+
+.app-shell h1,
+.app-shell h2,
+.app-shell h3,
+.app-shell .h1,
+.app-shell .h2,
+.app-shell .h3,
+.app-shell .h4,
+.app-shell .h5 {
+  color: #0b3954;
+}
+
+.app-shell p,
+.app-shell td,
+.app-shell th,
+.app-shell label,
+.app-shell .form-text {
+  color: #1d3557;
+}
+
+.app-shell a,
+.app-shell .btn-link {
+  color: #0a9396;
+}
+
+.app-shell a:hover,
+.app-shell .btn-link:hover {
+  color: #005f73;
+}
+
+.table thead th {
+  font-size: 0.88rem;
+  letter-spacing: 0.02em;
+  text-transform: uppercase;
+  color: #f1faee;
+  background: #0b3954;
+}
+
+.table tbody td,
+.table tbody th {
+  vertical-align: middle;
+}
+
+.table-striped > tbody > tr:nth-of-type(odd) > * {
+  background-color: #f1f8ff;
+}
+
+.table-hover > tbody > tr:hover > * {
+  background-color: #dff3ff;
+}
+
+.app-shell .btn-primary {
+  background-color: #0a9396;
+  border-color: #0a9396;
+}
+
+.app-shell .btn-primary:hover {
+  background-color: #007f81;
+  border-color: #007f81;
+}
+
+.app-shell .btn-outline-secondary {
+  color: #0b3954;
+  border-color: #0b3954;
+}
+
+.app-shell .btn-outline-secondary:hover {
+  background-color: #0b3954;
+  border-color: #0b3954;
+  color: #ffffff;
+}
+
+.app-nav .nav-link {
+  transition: all 0.2s ease-in-out;
+}
+
+.app-nav .nav-link:hover {
+  background-color: rgba(255, 255, 255, 0.14);
+  color: #ffffff;
+}
+
+.app-nav .navbar-brand {
+  color: #ffffff;
+}
+
+.app-nav .navbar-brand:hover {
+  color: #e6f7ff;
+}
+
+.modal {
+  background: rgba(15, 23, 42, 0.35);
+}
