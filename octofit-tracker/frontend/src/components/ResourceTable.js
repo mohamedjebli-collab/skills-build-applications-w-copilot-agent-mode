@@ -3,7 +3,7 @@ import { useEffect, useMemo, useState } from 'react';
 function getApiBaseUrl() {
   const codespaceName = process.env.REACT_APP_CODESPACE_NAME;
   return codespaceName
-    ? `https://${codespaceName}-8000.app.github.dev`
+    ? `https://${codespaceName}`
     : 'http://localhost:8000';
 }
 
@@ -44,7 +44,7 @@ function ResourceTable({
   const [query, setQuery] = useState('');
   const [selectedItem, setSelectedItem] = useState(null);
 
-  const endpoint = `${getApiBaseUrl()}/${endpointPath}/`;
+  const endpoint = `${getApiBaseUrl()}${endpointPath}/`;
 
   const fetchRows = async () => {
     setLoading(true);
