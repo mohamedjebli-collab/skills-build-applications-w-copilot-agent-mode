@@ -4,7 +4,7 @@ function Teams() {
   return (
     <ResourceTable
       title="Teams"
-      endpointPath="api/teams"
+      endpointPath="-8000.app.github.dev/api/teams"
       logPrefix="[Teams]"
       primaryFields={['name']}
       secondaryFields={['members_count', 'size', 'description']}
