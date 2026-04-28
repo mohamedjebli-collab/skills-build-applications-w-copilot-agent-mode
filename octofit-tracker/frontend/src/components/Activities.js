@@ -4,7 +4,7 @@ function Activities() {
   return (
     <ResourceTable
       title="Activities"
-      endpointPath="-8000.app.github.dev/api/activities"
+      endpointPath="activities"
       logPrefix="[Activities]"
       primaryFields={['name', 'title']}
       secondaryFields={['type', 'duration', 'description']}

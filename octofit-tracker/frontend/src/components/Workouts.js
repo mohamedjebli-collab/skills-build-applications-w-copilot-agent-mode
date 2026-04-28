@@ -4,7 +4,7 @@ function Workouts() {
   return (
     <ResourceTable
       title="Workouts"
-      endpointPath="-8000.app.github.dev/api/workouts"
+      endpointPath="workouts"
       logPrefix="[Workouts]"
       primaryFields={['name', 'title']}
       secondaryFields={['difficulty', 'level', 'duration']}
