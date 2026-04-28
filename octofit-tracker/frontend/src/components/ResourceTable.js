@@ -44,7 +44,7 @@ function ResourceTable({
   const [query, setQuery] = useState('');
   const [selectedItem, setSelectedItem] = useState(null);
 
-  const endpoint = `${getApiBaseUrl()}/api/${endpointPath}/`;
+  const endpoint = `${getApiBaseUrl()}/${endpointPath}/`;
 
   const fetchRows = async () => {
     setLoading(true);

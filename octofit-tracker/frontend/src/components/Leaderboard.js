@@ -4,7 +4,7 @@ function Leaderboard() {
   return (
     <ResourceTable
       title="Leaderboard"
-      endpointPath="leaderboard"
+      endpointPath="api/leaderboard"
       logPrefix="[Leaderboard]"
       primaryFields={['username', 'name', 'user']}
       secondaryFields={['points', 'score', 'rank']}

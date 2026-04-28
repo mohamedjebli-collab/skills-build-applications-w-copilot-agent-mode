@@ -52,7 +52,7 @@ function App() {
             <div className="card-body py-3">
               <h1 className="h3 mb-1">Fitness Dashboard</h1>
               <p className="mb-0 text-secondary">
-                Browse activities, leaderboard positions, teams, users, and workouts from the API.
+                Browse activities, leaderboard positions, teams, users, and workouts from the Codespaces-backed /api endpoints.
               </p>
             </div>
           </div>

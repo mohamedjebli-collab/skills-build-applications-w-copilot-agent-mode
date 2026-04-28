@@ -4,7 +4,7 @@ function Users() {
   return (
     <ResourceTable
       title="Users"
-      endpointPath="users"
+      endpointPath="api/users"
       logPrefix="[Users]"
       primaryFields={['username', 'name']}
       secondaryFields={['email', 'role']}
